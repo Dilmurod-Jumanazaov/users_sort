@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- site header started -->
+  <header class="site-header">
+
+  </header>
+  <!-- site header end -->
+  <!-- site main started -->
+  <main class="site-main">
+    <!-- hero section started -->
+    <section class="hero">
+      <div class="container">
+        <form class="js-form">
+          <select class="hero__select" name="gender">
+            <option class="hero__select-option" hidden value="">Gender</option>
+            <option class="hero__select-option" value="Male">Male</option>
+            <option class="hero__select-option" value="Female">Female</option>
+          </select>
+          <input class="js-input" type="text" name="user_country" aria-label="Enter your country" placeholder="Enter your country">
+          
+          <input class="js-min-price" type="range" name="user_amount1" oninput="num1.value = (parseInt(user_amount1.value))" min="1" max="100">
+          <output role="status" name="num1">0</output>
+  
+          <input class="js-max-price" type="range" name="user_amount2" oninput="num2.value = (parseInt(user_amount2.value))" min="1" max="100">
+          <output role="status" name="num2">0</output>
+  
+          <button class="js-btn" type="submit">Send</button>
+        </form>
+        <ul class="list"></ul>
+      </div>
+    </section>
+    <!-- hero section end -->
+  </main>
+  <!-- site main end -->
+  <!-- site footer started -->
+  <footer class="site-footer">
+
+  </footer>
+  <!-- site footer end -->
+  <script src="./js/user.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+  padding-top: 50px;
+}
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.js-form {
+  padding-bottom: 50px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-left: 0;
+  list-style: none;
+}
+.item {
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+
+}
